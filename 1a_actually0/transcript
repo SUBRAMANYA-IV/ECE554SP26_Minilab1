@@ -1,0 +1,13 @@
+# vsim -c work.mat_vec_mult_tb -do "run -all;quit" 
+# Start time: 17:06:08 on Feb 04,2026
+# Loading sv_std.std
+# Loading work.mat_vec_mult_tb
+# Loading work.mat_vec_mult
+# Loading work.FIFO
+# Loading work.MAC
+# run -all
+# Break key hit
+# Simulation stop requested.
+# quit
+# End time: 17:06:09 on Feb 04,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
