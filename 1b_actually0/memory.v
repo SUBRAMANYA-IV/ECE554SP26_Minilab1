@@ -8,7 +8,7 @@ module mem_wrapper (
     input wire read,                // Read request
     output reg [63:0] readdata,     // 64-bit read data (one row)
     output reg readdatavalid,       // Data valid signal
-	 output reg waitrequest          // Busy signal to indicate logic is processing
+	output reg waitrequest          // Busy signal to indicate logic is processing
 );
 
     wire [63:0] mem_rdata;

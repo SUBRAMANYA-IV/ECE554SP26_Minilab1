@@ -16,7 +16,6 @@ module mat_vec_mult #(
     input wire b_wren,
     input wire [DATA_WIDTH-1:0] a_fifo_in[7:0],
     input wire [DATA_WIDTH-1:0] b_fifo_in,
-    input wire clr,
     output wire [DATA_WIDTH*3-1:0] out[7:0]
 );
 
