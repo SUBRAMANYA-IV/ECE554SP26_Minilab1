@@ -12,7 +12,7 @@ input [DATA_WIDTH-1:0] Bin,
 output reg[DATA_WIDTH*3-1:0] Cout
 );
 
-always@(posedge clk, negedge rst_n)begin
+/*always@(posedge clk, negedge rst_n)begin
 	if(!rst_n) begin
 		Cout <= 'b0;
 	end else if(Clr) begin
@@ -22,7 +22,7 @@ always@(posedge clk, negedge rst_n)begin
 	end
 end
 
-/*
+*/
 wire[DATA_WIDTH*3-1:0] cout_next;
 wire[DATA_WIDTH*2-1:0] mult_out;
 
@@ -40,7 +40,7 @@ always @(posedge clk, negedge rst_n) begin
 		Cout <= cout_next;
 	end
 end
-*/
+
 
 
 endmodule

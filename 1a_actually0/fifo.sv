@@ -24,7 +24,7 @@ reg[$clog2(DEPTH)-1:0] bptr_raw;
 //assign ftpr_gray = fptr_raw ^ (fptr_raw>>1);
 //assign btpr_gray = bptr_raw ^ (bptr_raw>>1);
 
-always @(posedge clk, negedge rst_n) begin
+/*always @(posedge clk, negedge rst_n) begin
 	if(!rst_n) begin
 		for(integer i = 0; i < DEPTH; ++i) begin
 			array[i] <= 'b0;
@@ -58,8 +58,8 @@ always @(posedge clk, negedge rst_n) begin
 end
 
 assign full = (fptr_raw==bptr_raw) & (dir==1);
-assign empty = (fptr_raw==bptr_raw) & (dir==0);
-/*
+assign empty = (fptr_raw==bptr_raw) & (dir==0);*/
+
 fifo2 ff2(
 	.data(i_data),
 	.rdclk(clk),
@@ -69,5 +69,5 @@ fifo2 ff2(
 	.q(o_data),
 	.rdempty(empty),
 	.wrfull(full));
-*/
+
 endmodule
