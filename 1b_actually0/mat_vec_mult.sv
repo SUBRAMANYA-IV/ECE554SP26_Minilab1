@@ -52,7 +52,6 @@ module mat_vec_mult #(
     if (curr_state == WORKING && a_empty.and()) next_state = IDLE;
     else next_state = WORKING;
     */
-    //TODO: replace all "and" functio calls with a for loop
     case (curr_state)
       IDLE: begin
         if (a_full_and && b_full) next_state = WORKING;
@@ -69,6 +68,7 @@ module mat_vec_mult #(
     else curr_state <= next_state;
   end
 
+  //TODO: check this if it should staart at 8'b0 or 8'b1
   always @(posedge clk, negedge rst_n) begin
     if (~rst_n) a_rden <= 8'b00000000;
     else begin
