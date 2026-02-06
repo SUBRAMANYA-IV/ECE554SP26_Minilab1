@@ -113,7 +113,7 @@ module mat_vec_mult #(
     end  //once it starts, start shifting in the values from the b_vec fifo
     else if (curr_state==WORKING)begin
       shift_reg[7] <= b_fifo_out;
-      for (int i = 6; i > 0; i = i - 1) shift_reg[i] <= shift_reg[i+1];
+      for (int i = 7; i > 0; i = i - 1) shift_reg[i-1] <= shift_reg[i];
     end
   end
 
@@ -140,7 +140,7 @@ module mat_vec_mult #(
           .En(a_rden[7-i]),
           .Clr(Clr),
           .Ain(a_mat_out[i]),
-          .Bin(shift_reg[i]),
+          .Bin(shift_reg[7-i]),
           .Cout(out[i])
       );
     end
