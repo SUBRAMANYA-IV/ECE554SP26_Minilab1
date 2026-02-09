@@ -3367,24 +3367,24 @@ R13
 R14
 vminilab1b
 R53
-!s110 1770665384
+!s110 1770668655
 !i10b 1
-!s100 mf0MXgQ`e6Gk0YJPE;=WZ0
+!s100 jgD2mefcOdl9Ve>VIP<hj2
 R55
-I_FWd5SO8zBY:UP1`[aPoW3
+IjBFM`R2^5okM@L1?iYZ4W3
 R56
 S1
 R5
-w1770665373
+w1770668649
 8C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/minilab1b.sv
 FC:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/minilab1b.sv
-!i122 60
+!i122 64
 L0 1 392
 R58
 r1
 !s85 0
 31
-!s108 1770665383.000000
+!s108 1770668655.000000
 !s107 C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/minilab1b.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/minilab1b.sv|
 !i113 1
@@ -3392,24 +3392,24 @@ R60
 R61
 vminilab1b_tb
 R53
-!s110 1770663858
+!s110 1770669169
 !i10b 1
-!s100 MPh1GjoOJmfzOY4HcEg?C2
+!s100 @c>eT1RNZ=B3d7KQh>nbc1
 R55
-I?[[jjK0K<XdW0Rj5WTgYZ3
+I=Q01cbcQMGa]P3:4Z9g2;2
 R56
 S1
 R5
-w1770663774
+w1770669161
 8C:\Users\jnoro\AppData\Local\quartus\ECE554SP26_Minilab1\1b_actually0\minilab1b_tb.sv
 FC:\Users\jnoro\AppData\Local\quartus\ECE554SP26_Minilab1\1b_actually0\minilab1b_tb.sv
-!i122 55
+!i122 66
 L0 3 71
 R58
 r1
 !s85 0
 31
-!s108 1770663858.000000
+!s108 1770669169.000000
 !s107 C:\Users\jnoro\AppData\Local\quartus\ECE554SP26_Minilab1\1b_actually0\minilab1b_tb.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:\Users\jnoro\AppData\Local\quartus\ECE554SP26_Minilab1\1b_actually0\minilab1b_tb.sv|
 !i113 1

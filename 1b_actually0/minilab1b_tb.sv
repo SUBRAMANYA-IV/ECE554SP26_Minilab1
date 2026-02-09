@@ -5,7 +5,7 @@ module minilab1b_tb();
 logic clk, rst_n;
 
 logic done, display_en;
-logic [2:0] display_C0X;
+logic [3:0] display_C0X;
 
 logic [6:0] display_out [0:5];
 
@@ -18,7 +18,7 @@ minilab1b iDUT(
   .CLOCK3_50(clk),
   .CLOCK4_50(clk),
   .KEY({3'b0, rst_n}),
-  .SW({6'b0, display_C0X, display_en}),
+  .SW({6'b0, display_C0X[2:0], display_en}),
 
   // outputs
   .HEX0(display_out[0]),
@@ -34,7 +34,7 @@ initial begin
   clk = 1'b0;
   rst_n = 1'b0;
   display_en = 1'b0;
-  display_C0X = 3'b0;
+  display_C0X = 4'b0;
 
   expected[0] = 24'd4812;
   expected[1] = 24'd21772;
