@@ -1,10 +1,10 @@
-Analysis & Synthesis Status : Successful - Fri Feb  6 00:45:53 2026
+Analysis & Synthesis Status : Successful - Mon Feb  9 10:11:38 2026
 Quartus Prime Version : 25.1std.0 Build 1129 10/21/2025 SC Lite Edition
 Revision Name : minilab1b
 Top-level Entity Name : minilab1b
 Family : Cyclone V
 Logic utilization (in ALMs) : N/A
-Total registers : 1060
+Total registers : 1068
 Total pins : 70
 Total virtual pins : 0
 Total block memory bits : 576

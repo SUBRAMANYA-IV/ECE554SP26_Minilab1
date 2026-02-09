@@ -1,5 +1,5 @@
 Analysis & Synthesis report for minilab1b
-Fri Feb  6 00:45:53 2026
+Mon Feb  9 10:11:38 2026
 Quartus Prime Version 25.1std.0 Build 1129 10/21/2025 SC Lite Edition
 
 
@@ -46,14 +46,13 @@ Quartus Prime Version 25.1std.0 Build 1129 10/21/2025 SC Lite Edition
  38. Port Connectivity Checks: "mat_vec_mult:iMAC|FIFO:hw[3].a_mat"
  39. Port Connectivity Checks: "mat_vec_mult:iMAC|FIFO:hw[2].a_mat"
  40. Port Connectivity Checks: "mat_vec_mult:iMAC|FIFO:hw[1].a_mat"
- 41. Port Connectivity Checks: "mat_vec_mult:iMAC|MAC:hw[0].mat_arr"
- 42. Port Connectivity Checks: "mat_vec_mult:iMAC|FIFO:hw[0].a_mat"
- 43. Port Connectivity Checks: "mem_wrapper:iRemember|rom:memory"
- 44. Port Connectivity Checks: "mem_wrapper:iRemember"
- 45. Post-Synthesis Netlist Statistics for Top Partition
- 46. Elapsed Time Per Partition
- 47. Analysis & Synthesis Messages
- 48. Analysis & Synthesis Suppressed Messages
+ 41. Port Connectivity Checks: "mat_vec_mult:iMAC|FIFO:hw[0].a_mat"
+ 42. Port Connectivity Checks: "mem_wrapper:iRemember|rom:memory"
+ 43. Port Connectivity Checks: "mem_wrapper:iRemember"
+ 44. Post-Synthesis Netlist Statistics for Top Partition
+ 45. Elapsed Time Per Partition
+ 46. Analysis & Synthesis Messages
+ 47. Analysis & Synthesis Suppressed Messages
 
 
 
@@ -80,13 +79,13 @@ on the Quartus Prime software download page.
 +-----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                      ;
 +---------------------------------+-------------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Fri Feb  6 00:45:53 2026           ;
+; Analysis & Synthesis Status     ; Successful - Mon Feb  9 10:11:38 2026           ;
 ; Quartus Prime Version           ; 25.1std.0 Build 1129 10/21/2025 SC Lite Edition ;
 ; Revision Name                   ; minilab1b                                       ;
 ; Top-level Entity Name           ; minilab1b                                       ;
 ; Family                          ; Cyclone V                                       ;
 ; Logic utilization (in ALMs)     ; N/A                                             ;
-; Total registers                 ; 1060                                            ;
+; Total registers                 ; 1068                                            ;
 ; Total pins                      ; 70                                              ;
 ; Total virtual pins              ; 0                                               ;
 ; Total block memory bits         ; 576                                             ;
@@ -238,7 +237,7 @@ on the Quartus Prime software download page.
 +---------------------------------------------+----------------+
 ; Resource                                    ; Usage          ;
 +---------------------------------------------+----------------+
-; Estimate of Logic utilization (ALMs needed) ; 709            ;
+; Estimate of Logic utilization (ALMs needed) ; 713            ;
 ;                                             ;                ;
 ; Combinational ALUT usage for logic          ; 529            ;
 ;     -- 7 input functions                    ; 0              ;
@@ -247,7 +246,7 @@ on the Quartus Prime software download page.
 ;     -- 4 input functions                    ; 24             ;
 ;     -- <=3 input functions                  ; 108            ;
 ;                                             ;                ;
-; Dedicated logic registers                   ; 1060           ;
+; Dedicated logic registers                   ; 1068           ;
 ;                                             ;                ;
 ; I/O pins                                    ; 70             ;
 ; Total MLAB memory bits                      ; 0              ;
@@ -256,8 +255,8 @@ on the Quartus Prime software download page.
 ; Total DSP Blocks                            ; 8              ;
 ;                                             ;                ;
 ; Maximum fan-out node                        ; CLOCK_50~input ;
-; Maximum fan-out                             ; 1124           ;
-; Total fan-out                               ; 7813           ;
+; Maximum fan-out                             ; 1132           ;
+; Total fan-out                               ; 7853           ;
 ; Average fan-out                             ; 4.34           ;
 +---------------------------------------------+----------------+
 
@@ -267,8 +266,8 @@ on the Quartus Prime software download page.
 +----------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+------------------------------------------------------------------------------------------------------------+-----------------+--------------+
 ; Compilation Hierarchy Node                   ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                        ; Entity Name     ; Library Name ;
 +----------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+------------------------------------------------------------------------------------------------------------+-----------------+--------------+
-; |minilab1b                                   ; 529 (124)           ; 1060 (5)                  ; 576               ; 8          ; 70   ; 0            ; |minilab1b                                                                                                 ; minilab1b       ; work         ;
-;    |mat_vec_mult:iMAC|                       ; 393 (13)            ; 978 (75)                  ; 0                 ; 8          ; 0    ; 0            ; |minilab1b|mat_vec_mult:iMAC                                                                               ; mat_vec_mult    ; work         ;
+; |minilab1b                                   ; 529 (124)           ; 1068 (5)                  ; 576               ; 8          ; 70   ; 0            ; |minilab1b                                                                                                 ; minilab1b       ; work         ;
+;    |mat_vec_mult:iMAC|                       ; 393 (13)            ; 986 (83)                  ; 0                 ; 8          ; 0    ; 0            ; |minilab1b|mat_vec_mult:iMAC                                                                               ; mat_vec_mult    ; work         ;
 ;       |FIFO:b_vec|                           ; 44 (44)             ; 79 (79)                   ; 0                 ; 0          ; 0    ; 0            ; |minilab1b|mat_vec_mult:iMAC|FIFO:b_vec                                                                    ; FIFO            ; work         ;
 ;       |FIFO:hw[0].a_mat|                     ; 41 (41)             ; 79 (79)                   ; 0                 ; 0          ; 0    ; 0            ; |minilab1b|mat_vec_mult:iMAC|FIFO:hw[0].a_mat                                                              ; FIFO            ; work         ;
 ;       |FIFO:hw[1].a_mat|                     ; 41 (41)             ; 79 (79)                   ; 0                 ; 0          ; 0    ; 0            ; |minilab1b|mat_vec_mult:iMAC|FIFO:hw[1].a_mat                                                              ; FIFO            ; work         ;
@@ -332,12 +331,12 @@ Encoding Type:  One-Hot
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 1060  ;
-; Number of registers using Synchronous Clear  ; 201   ;
+; Total registers                              ; 1068  ;
+; Number of registers using Synchronous Clear  ; 265   ;
 ; Number of registers using Synchronous Load   ; 0     ;
-; Number of registers using Asynchronous Clear ; 1055  ;
+; Number of registers using Asynchronous Clear ; 1063  ;
 ; Number of registers using Asynchronous Load  ; 0     ;
-; Number of registers using Clock Enable       ; 964   ;
+; Number of registers using Clock Enable       ; 908   ;
 ; Number of registers using Preset             ; 0     ;
 +----------------------------------------------+-------+
 
@@ -365,26 +364,26 @@ Encoding Type:  One-Hot
 +--------------------+-----------+---------------+----------------------+------------------------+------------+---------------------------------------------------------+
 ; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                              ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+---------------------------------------------------------+
-; 3:1                ; 24 bits   ; 48 LEs        ; 0 LEs                ; 48 LEs                 ; Yes        ; |minilab1b|mat_vec_mult:iMAC|MAC:hw[7].mat_arr|Cout[17] ;
-; 3:1                ; 24 bits   ; 48 LEs        ; 0 LEs                ; 48 LEs                 ; Yes        ; |minilab1b|mat_vec_mult:iMAC|MAC:hw[6].mat_arr|Cout[10] ;
-; 3:1                ; 24 bits   ; 48 LEs        ; 0 LEs                ; 48 LEs                 ; Yes        ; |minilab1b|mat_vec_mult:iMAC|MAC:hw[5].mat_arr|Cout[22] ;
-; 3:1                ; 24 bits   ; 48 LEs        ; 0 LEs                ; 48 LEs                 ; Yes        ; |minilab1b|mat_vec_mult:iMAC|MAC:hw[4].mat_arr|Cout[22] ;
-; 3:1                ; 24 bits   ; 48 LEs        ; 0 LEs                ; 48 LEs                 ; Yes        ; |minilab1b|mat_vec_mult:iMAC|MAC:hw[3].mat_arr|Cout[5]  ;
-; 3:1                ; 24 bits   ; 48 LEs        ; 0 LEs                ; 48 LEs                 ; Yes        ; |minilab1b|mat_vec_mult:iMAC|MAC:hw[2].mat_arr|Cout[15] ;
-; 3:1                ; 24 bits   ; 48 LEs        ; 0 LEs                ; 48 LEs                 ; Yes        ; |minilab1b|mat_vec_mult:iMAC|MAC:hw[1].mat_arr|Cout[2]  ;
-; 3:1                ; 24 bits   ; 48 LEs        ; 0 LEs                ; 48 LEs                 ; Yes        ; |minilab1b|mat_vec_mult:iMAC|MAC:hw[0].mat_arr|Cout[1]  ;
-; 8:1                ; 8 bits    ; 40 LEs        ; 40 LEs               ; 0 LEs                  ; Yes        ; |minilab1b|mat_vec_mult:iMAC|FIFO:b_vec|o_data[1]       ;
+; 3:1                ; 24 bits   ; 48 LEs        ; 0 LEs                ; 48 LEs                 ; Yes        ; |minilab1b|mat_vec_mult:iMAC|MAC:hw[7].mat_arr|Cout[5]  ;
+; 3:1                ; 24 bits   ; 48 LEs        ; 0 LEs                ; 48 LEs                 ; Yes        ; |minilab1b|mat_vec_mult:iMAC|MAC:hw[6].mat_arr|Cout[21] ;
+; 3:1                ; 24 bits   ; 48 LEs        ; 0 LEs                ; 48 LEs                 ; Yes        ; |minilab1b|mat_vec_mult:iMAC|MAC:hw[5].mat_arr|Cout[3]  ;
+; 3:1                ; 24 bits   ; 48 LEs        ; 0 LEs                ; 48 LEs                 ; Yes        ; |minilab1b|mat_vec_mult:iMAC|MAC:hw[4].mat_arr|Cout[19] ;
+; 3:1                ; 24 bits   ; 48 LEs        ; 0 LEs                ; 48 LEs                 ; Yes        ; |minilab1b|mat_vec_mult:iMAC|MAC:hw[3].mat_arr|Cout[13] ;
+; 3:1                ; 24 bits   ; 48 LEs        ; 0 LEs                ; 48 LEs                 ; Yes        ; |minilab1b|mat_vec_mult:iMAC|MAC:hw[2].mat_arr|Cout[5]  ;
+; 3:1                ; 24 bits   ; 48 LEs        ; 0 LEs                ; 48 LEs                 ; Yes        ; |minilab1b|mat_vec_mult:iMAC|MAC:hw[1].mat_arr|Cout[13] ;
+; 3:1                ; 24 bits   ; 48 LEs        ; 0 LEs                ; 48 LEs                 ; Yes        ; |minilab1b|mat_vec_mult:iMAC|MAC:hw[0].mat_arr|Cout[7]  ;
+; 8:1                ; 8 bits    ; 40 LEs        ; 40 LEs               ; 0 LEs                  ; Yes        ; |minilab1b|mat_vec_mult:iMAC|FIFO:b_vec|o_data[4]       ;
 ; 8:1                ; 8 bits    ; 40 LEs        ; 40 LEs               ; 0 LEs                  ; Yes        ; |minilab1b|mat_vec_mult:iMAC|FIFO:hw[6].a_mat|o_data[0] ;
 ; 8:1                ; 8 bits    ; 40 LEs        ; 40 LEs               ; 0 LEs                  ; Yes        ; |minilab1b|mat_vec_mult:iMAC|FIFO:hw[7].a_mat|o_data[6] ;
-; 8:1                ; 8 bits    ; 40 LEs        ; 40 LEs               ; 0 LEs                  ; Yes        ; |minilab1b|mat_vec_mult:iMAC|FIFO:hw[5].a_mat|o_data[1] ;
-; 8:1                ; 8 bits    ; 40 LEs        ; 40 LEs               ; 0 LEs                  ; Yes        ; |minilab1b|mat_vec_mult:iMAC|FIFO:hw[4].a_mat|o_data[3] ;
-; 8:1                ; 8 bits    ; 40 LEs        ; 40 LEs               ; 0 LEs                  ; Yes        ; |minilab1b|mat_vec_mult:iMAC|FIFO:hw[3].a_mat|o_data[3] ;
-; 8:1                ; 8 bits    ; 40 LEs        ; 40 LEs               ; 0 LEs                  ; Yes        ; |minilab1b|mat_vec_mult:iMAC|FIFO:hw[2].a_mat|o_data[2] ;
-; 8:1                ; 8 bits    ; 40 LEs        ; 40 LEs               ; 0 LEs                  ; Yes        ; |minilab1b|mat_vec_mult:iMAC|FIFO:hw[1].a_mat|o_data[0] ;
-; 8:1                ; 8 bits    ; 40 LEs        ; 40 LEs               ; 0 LEs                  ; Yes        ; |minilab1b|mat_vec_mult:iMAC|FIFO:hw[0].a_mat|o_data[0] ;
+; 8:1                ; 8 bits    ; 40 LEs        ; 40 LEs               ; 0 LEs                  ; Yes        ; |minilab1b|mat_vec_mult:iMAC|FIFO:hw[5].a_mat|o_data[0] ;
+; 8:1                ; 8 bits    ; 40 LEs        ; 40 LEs               ; 0 LEs                  ; Yes        ; |minilab1b|mat_vec_mult:iMAC|FIFO:hw[4].a_mat|o_data[6] ;
+; 8:1                ; 8 bits    ; 40 LEs        ; 40 LEs               ; 0 LEs                  ; Yes        ; |minilab1b|mat_vec_mult:iMAC|FIFO:hw[3].a_mat|o_data[4] ;
+; 8:1                ; 8 bits    ; 40 LEs        ; 40 LEs               ; 0 LEs                  ; Yes        ; |minilab1b|mat_vec_mult:iMAC|FIFO:hw[2].a_mat|o_data[3] ;
+; 8:1                ; 8 bits    ; 40 LEs        ; 40 LEs               ; 0 LEs                  ; Yes        ; |minilab1b|mat_vec_mult:iMAC|FIFO:hw[1].a_mat|o_data[2] ;
+; 8:1                ; 8 bits    ; 40 LEs        ; 40 LEs               ; 0 LEs                  ; Yes        ; |minilab1b|mat_vec_mult:iMAC|FIFO:hw[0].a_mat|o_data[6] ;
 ; 5:1                ; 4 bits    ; 12 LEs        ; 4 LEs                ; 8 LEs                  ; Yes        ; |minilab1b|mem_wrapper:iRemember|delay_counter[0]       ;
 ; 3:1                ; 2 bits    ; 4 LEs         ; 4 LEs                ; 0 LEs                  ; No         ; |minilab1b|a_wren                                       ;
-; 9:1                ; 24 bits   ; 144 LEs       ; 144 LEs              ; 0 LEs                  ; No         ; |minilab1b|macout[5]                                    ;
+; 9:1                ; 24 bits   ; 144 LEs       ; 144 LEs              ; 0 LEs                  ; No         ; |minilab1b|macout[18]                                   ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+---------------------------------------------------------+
 
 
@@ -744,15 +743,6 @@ Note: In order to hide this table in the UI and the text report file, please set
 +-------+--------+----------+-------------------------------------------------------------------------------------+
 
 
-+-----------------------------------------------------------------+
-; Port Connectivity Checks: "mat_vec_mult:iMAC|MAC:hw[0].mat_arr" ;
-+------+-------+----------+---------------------------------------+
-; Port ; Type  ; Severity ; Details                               ;
-+------+-------+----------+---------------------------------------+
-; Bin  ; Input ; Info     ; Stuck at GND                          ;
-+------+-------+----------+---------------------------------------+
-
-
 +-----------------------------------------------------------------------------------------------------------------+
 ; Port Connectivity Checks: "mat_vec_mult:iMAC|FIFO:hw[0].a_mat"                                                  ;
 +-------+--------+----------+-------------------------------------------------------------------------------------+
@@ -786,11 +776,11 @@ Note: In order to hide this table in the UI and the text report file, please set
 +-----------------------+-----------------------------+
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
-; arriav_ff             ; 1060                        ;
+; arriav_ff             ; 1068                        ;
 ;     CLR               ; 87                          ;
-;     CLR SCLR          ; 8                           ;
+;     CLR SCLR          ; 72                          ;
 ;     ENA               ; 4                           ;
-;     ENA CLR           ; 768                         ;
+;     ENA CLR           ; 712                         ;
 ;     ENA CLR SCLR      ; 192                         ;
 ;     SCLR              ; 1                           ;
 ; arriav_lcell_comb     ; 530                         ;
@@ -826,7 +816,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 25.1std.0 Build 1129 10/21/2025 SC Lite Edition
-    Info: Processing started: Fri Feb  6 00:45:42 2026
+    Info: Processing started: Mon Feb  9 10:11:25 2026
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off minilab1b -c minilab1b
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 6 of the 6 processors detected
@@ -843,7 +833,7 @@ Info (12021): Found 1 design units, including 1 entities, in source file mat_vec
 Info (12021): Found 1 design units, including 1 entities, in source file memory.v
     Info (12023): Found entity 1: mem_wrapper File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/memory.v Line: 2
 Info (12127): Elaborating entity "minilab1b" for the top level hierarchy
-Info (12128): Elaborating entity "mem_wrapper" for hierarchy "mem_wrapper:iRemember" File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/minilab1b.sv Line: 88
+Info (12128): Elaborating entity "mem_wrapper" for hierarchy "mem_wrapper:iRemember" File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/minilab1b.sv Line: 89
 Warning (10230): Verilog HDL assignment warning at memory.v(44): truncated value with size 32 to match size of target (5) File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/memory.v Line: 44
 Warning (10230): Verilog HDL assignment warning at memory.v(52): truncated value with size 32 to match size of target (4) File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/memory.v Line: 52
 Info (12128): Elaborating entity "rom" for hierarchy "mem_wrapper:iRemember|rom:memory" File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/memory.v Line: 28
@@ -867,19 +857,11 @@ Info (12133): Instantiated megafunction "mem_wrapper:iRemember|rom:memory|altsyn
 Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_tdg1.tdf
     Info (12023): Found entity 1: altsyncram_tdg1 File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/db/altsyncram_tdg1.tdf Line: 28
 Info (12128): Elaborating entity "altsyncram_tdg1" for hierarchy "mem_wrapper:iRemember|rom:memory|altsyncram:altsyncram_component|altsyncram_tdg1:auto_generated" File: c:/altera_lite/25.1std/quartus/libraries/megafunctions/altsyncram.tdf Line: 792
-Info (12128): Elaborating entity "mat_vec_mult" for hierarchy "mat_vec_mult:iMAC" File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/minilab1b.sv Line: 100
-Info (10041): Inferred latch for "shift_reg[0][0]" at mat_vec_mult.sv(108) File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/mat_vec_mult.sv Line: 108
-Info (10041): Inferred latch for "shift_reg[0][1]" at mat_vec_mult.sv(108) File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/mat_vec_mult.sv Line: 108
-Info (10041): Inferred latch for "shift_reg[0][2]" at mat_vec_mult.sv(108) File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/mat_vec_mult.sv Line: 108
-Info (10041): Inferred latch for "shift_reg[0][3]" at mat_vec_mult.sv(108) File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/mat_vec_mult.sv Line: 108
-Info (10041): Inferred latch for "shift_reg[0][4]" at mat_vec_mult.sv(108) File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/mat_vec_mult.sv Line: 108
-Info (10041): Inferred latch for "shift_reg[0][5]" at mat_vec_mult.sv(108) File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/mat_vec_mult.sv Line: 108
-Info (10041): Inferred latch for "shift_reg[0][6]" at mat_vec_mult.sv(108) File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/mat_vec_mult.sv Line: 108
-Info (10041): Inferred latch for "shift_reg[0][7]" at mat_vec_mult.sv(108) File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/mat_vec_mult.sv Line: 108
+Info (12128): Elaborating entity "mat_vec_mult" for hierarchy "mat_vec_mult:iMAC" File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/minilab1b.sv Line: 101
 Info (12128): Elaborating entity "FIFO" for hierarchy "mat_vec_mult:iMAC|FIFO:b_vec" File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/mat_vec_mult.sv Line: 105
 Warning (10230): Verilog HDL assignment warning at fifo.sv(38): truncated value with size 32 to match size of target (3) File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/fifo.sv Line: 38
 Warning (10230): Verilog HDL assignment warning at fifo.sv(42): truncated value with size 32 to match size of target (3) File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/fifo.sv Line: 42
-Info (12128): Elaborating entity "MAC" for hierarchy "mat_vec_mult:iMAC|MAC:hw[0].mat_arr" File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/mat_vec_mult.sv Line: 141
+Info (12128): Elaborating entity "MAC" for hierarchy "mat_vec_mult:iMAC|MAC:hw[0].mat_arr" File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/mat_vec_mult.sv Line: 142
 Warning (12241): 1 hierarchies have connectivity warnings - see the Connectivity Checks report folder
 Warning (13024): Output pins are stuck at VCC or GND
     Warning (13410): Pin "LEDR[1]" is stuck at GND File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/minilab1b.sv Line: 18
@@ -908,17 +890,17 @@ Warning (21074): Design contains 12 input pin(s) that do not drive logic
     Warning (15610): No output dependent on input pin "SW[7]" File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/minilab1b.sv Line: 25
     Warning (15610): No output dependent on input pin "SW[8]" File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/minilab1b.sv Line: 25
     Warning (15610): No output dependent on input pin "SW[9]" File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/minilab1b.sv Line: 25
-Info (21057): Implemented 1572 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 1580 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 18 input pins
     Info (21059): Implemented 52 output pins
-    Info (21061): Implemented 1430 logic cells
+    Info (21061): Implemented 1438 logic cells
     Info (21064): Implemented 64 RAM segments
     Info (21062): Implemented 8 DSP elements
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 29 warnings
     Info: Peak virtual memory: 4905 megabytes
-    Info: Processing ended: Fri Feb  6 00:45:53 2026
-    Info: Elapsed time: 00:00:11
-    Info: Total CPU time (on all processors): 00:00:21
+    Info: Processing ended: Mon Feb  9 10:11:38 2026
+    Info: Elapsed time: 00:00:13
+    Info: Total CPU time (on all processors): 00:00:26
 
 
 +------------------------------------------+

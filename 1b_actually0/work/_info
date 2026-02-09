@@ -1,0 +1,210 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+vFIFO
+Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z1 !s110 1770657181
+!i10b 1
+!s100 4MT;=kRYb^4Fn>O0?5J@h1
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I2lGh@2jUh:5neh7eBT9Ff1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+S1
+Z4 dC:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0
+Z5 w1770360956
+8C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/fifo.sv
+FC:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/fifo.sv
+!i122 24
+L0 1 75
+Z6 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z7 !s108 1770657181.000000
+!s107 C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/fifo.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/fifo.sv|
+!i113 1
+Z8 o-work work -sv
+Z9 tCvgOpt 0
+n@f@i@f@o
+vMAC
+R0
+R1
+!i10b 1
+!s100 HkN^YGG[Oc_2HG^J4FXVl0
+R2
+IhHzD5Jc50S<gKBNTPMQ9D2
+R3
+S1
+R4
+R5
+8C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/mac.sv
+FC:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/mac.sv
+!i122 25
+L0 1 47
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/mac.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/mac.sv|
+!i113 1
+R8
+R9
+n@m@a@c
+vmat_vec_mult
+R0
+R1
+!i10b 1
+!s100 UYz:l?knHihYC7TndKoTC0
+R2
+IKB99OIJ6OT<?Knb?6__C82
+R3
+S1
+R4
+Z10 w1770608023
+8C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/mat_vec_mult.sv
+FC:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/mat_vec_mult.sv
+!i122 26
+L0 6 141
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/mat_vec_mult.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/mat_vec_mult.sv|
+!i113 1
+R8
+R9
+vmat_vec_mult_tb
+R0
+R1
+!i10b 1
+!s100 8ICF>PJ0HeM;eiIY6cYNc0
+R2
+Ic9XAN;dFB^0YEzh3D]:^@3
+R3
+S1
+R4
+R10
+8C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/mat_vec_mult_tb.sv
+FC:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/mat_vec_mult_tb.sv
+!i122 27
+L0 1 178
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/mat_vec_mult_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/mat_vec_mult_tb.sv|
+!i113 1
+R8
+R9
+vmem_wrapper
+R1
+!i10b 1
+!s100 M3jiLfB;XFR[V<[F]GN6V1
+R2
+I<FnacPL82;=_@EGMfQl_o0
+R3
+R4
+R5
+8C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/memory.v
+FC:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/memory.v
+!i122 28
+L0 2 66
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/memory.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/memory.v|
+!i113 1
+Z11 o-work work
+R9
+vminilab1b
+R0
+Z12 !s110 1770657182
+!i10b 1
+!s100 jaoHJ]Nn?2H39eVOT0=B70
+R2
+IRMKB8EEnX?5RLE?OW9jd>3
+R3
+S1
+R4
+w1770650863
+8C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/minilab1b.sv
+FC:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/minilab1b.sv
+!i122 29
+L0 1 337
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/minilab1b.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/minilab1b.sv|
+!i113 1
+R8
+R9
+vminilab1b_tb
+R0
+!s110 1770657285
+!i10b 1
+!s100 9efM=Sk]^L=lb::PB6NM`0
+R2
+I89o`8L>eLoC`4b9mQojNT1
+R3
+S1
+R4
+w1770657262
+8C:\Users\jnoro\AppData\Local\quartus\ECE554SP26_Minilab1\1b_actually0\minilab1b_tb.sv
+FC:\Users\jnoro\AppData\Local\quartus\ECE554SP26_Minilab1\1b_actually0\minilab1b_tb.sv
+!i122 32
+L0 3 69
+R6
+r1
+!s85 0
+31
+!s108 1770657285.000000
+!s107 C:\Users\jnoro\AppData\Local\quartus\ECE554SP26_Minilab1\1b_actually0\minilab1b_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:\Users\jnoro\AppData\Local\quartus\ECE554SP26_Minilab1\1b_actually0\minilab1b_tb.sv|
+!i113 1
+R8
+R9
+vrom
+R12
+!i10b 1
+!s100 RHQ8N:hhMYEklfFC9XUAj3
+R2
+ISZlY77[6kJED]F1;BUGS`3
+R3
+R4
+R5
+8C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v
+FC:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v
+!i122 31
+L0 40 61
+R6
+r1
+!s85 0
+31
+!s108 1770657182.000000
+!s107 C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v|
+!i113 1
+R11
+R9

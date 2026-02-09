@@ -1,5 +1,5 @@
 Flow report for minilab1b
-Fri Feb  6 00:55:03 2026
+Mon Feb  9 10:15:41 2026
 Quartus Prime Version 25.1std.0 Build 1129 10/21/2025 SC Lite Edition
 
 
@@ -41,15 +41,15 @@ on the Quartus Prime software download page.
 +-----------------------------------------------------------------------------------+
 ; Flow Summary                                                                      ;
 +---------------------------------+-------------------------------------------------+
-; Flow Status                     ; Successful - Fri Feb  6 00:50:00 2026           ;
+; Flow Status                     ; Successful - Mon Feb  9 10:15:41 2026           ;
 ; Quartus Prime Version           ; 25.1std.0 Build 1129 10/21/2025 SC Lite Edition ;
 ; Revision Name                   ; minilab1b                                       ;
 ; Top-level Entity Name           ; minilab1b                                       ;
 ; Family                          ; Cyclone V                                       ;
 ; Device                          ; 5CSEMA5F31C6                                    ;
 ; Timing Models                   ; Final                                           ;
-; Logic utilization (in ALMs)     ; 571 / 32,070 ( 2 % )                            ;
-; Total registers                 ; 974                                             ;
+; Logic utilization (in ALMs)     ; 582 / 32,070 ( 2 % )                            ;
+; Total registers                 ; 975                                             ;
 ; Total pins                      ; 70 / 457 ( 15 % )                               ;
 ; Total virtual pins              ; 0                                               ;
 ; Total block memory bits         ; 576 / 4,065,280 ( < 1 % )                       ;
@@ -68,7 +68,7 @@ on the Quartus Prime software download page.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 02/06/2026 00:45:43 ;
+; Start date & time ; 02/09/2026 10:11:26 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; minilab1b           ;
 +-------------------+---------------------+
@@ -79,7 +79,7 @@ on the Quartus Prime software download page.
 +-------------------------------------+----------------------------------------+---------------+-------------+-----------------------------------+
 ; Assignment Name                     ; Value                                  ; Default Value ; Entity Name ; Section Id                        ;
 +-------------------------------------+----------------------------------------+---------------+-------------+-----------------------------------+
-; COMPILER_SIGNATURE_ID               ; 217879938220371.177036034330924        ; --            ; --          ; --                                ;
+; COMPILER_SIGNATURE_ID               ; 217879938220371.177065348506136        ; --            ; --          ; --                                ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST     ; Off                                    ; --            ; --          ; eda_board_design_timing           ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST     ; Off                                    ; --            ; --          ; eda_board_design_boundary_scan    ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST     ; Off                                    ; --            ; --          ; eda_board_design_signal_integrity ;
@@ -104,15 +104,12 @@ on the Quartus Prime software download page.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:10     ; 1.0                     ; 4905 MB             ; 00:00:21                           ;
-; Fitter               ; 00:03:47     ; 1.0                     ; 6876 MB             ; 00:13:01                           ;
-; Assembler            ; 00:00:07     ; 1.0                     ; 5242 MB             ; 00:00:06                           ;
-; Timing Analyzer      ; 00:00:07     ; 1.6                     ; 5411 MB             ; 00:00:10                           ;
-; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4775 MB             ; 00:00:01                           ;
-; Timing Analyzer      ; 00:00:04     ; 1.1                     ; 5317 MB             ; 00:00:04                           ;
-; Timing Analyzer      ; 00:00:04     ; 1.0                     ; 5317 MB             ; 00:00:04                           ;
-; Timing Analyzer      ; 00:00:04     ; 1.0                     ; 5317 MB             ; 00:00:04                           ;
-; Total                ; 00:04:24     ; --                      ; --                  ; 00:13:51                           ;
+; Analysis & Synthesis ; 00:00:12     ; 1.0                     ; 4905 MB             ; 00:00:26                           ;
+; Fitter               ; 00:03:37     ; 1.0                     ; 6876 MB             ; 00:11:42                           ;
+; Assembler            ; 00:00:11     ; 1.0                     ; 5242 MB             ; 00:00:07                           ;
+; Timing Analyzer      ; 00:00:08     ; 1.6                     ; 5411 MB             ; 00:00:10                           ;
+; EDA Netlist Writer   ; 00:00:02     ; 1.0                     ; 4775 MB             ; 00:00:01                           ;
+; Total                ; 00:04:10     ; --                      ; --                  ; 00:12:26                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -126,9 +123,6 @@ on the Quartus Prime software download page.
 ; Assembler            ; Joshua           ; Windows 10 ; 10.0       ; x86_64         ;
 ; Timing Analyzer      ; Joshua           ; Windows 10 ; 10.0       ; x86_64         ;
 ; EDA Netlist Writer   ; Joshua           ; Windows 10 ; 10.0       ; x86_64         ;
-; Timing Analyzer      ; Joshua           ; Windows 10 ; 10.0       ; x86_64         ;
-; Timing Analyzer      ; Joshua           ; Windows 10 ; 10.0       ; x86_64         ;
-; Timing Analyzer      ; Joshua           ; Windows 10 ; 10.0       ; x86_64         ;
 +----------------------+------------------+------------+------------+----------------+
 
 
@@ -140,9 +134,6 @@ quartus_fit --read_settings_files=off --write_settings_files=off minilab1b -c mi
 quartus_asm --read_settings_files=off --write_settings_files=off minilab1b -c minilab1b
 quartus_sta minilab1b -c minilab1b
 quartus_eda --read_settings_files=off --write_settings_files=off minilab1b -c minilab1b
-quartus_sta minilab1b -c minilab1b
-quartus_sta minilab1b -c minilab1b
-quartus_sta minilab1b -c minilab1b
 
 
 

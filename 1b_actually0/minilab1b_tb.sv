@@ -1,4 +1,6 @@
-module minilab1b();
+// synopsys translate_off
+`timescale 1 ps / 1 ps
+module minilab1b_tb();
 
 logic clk, rst_n;
 

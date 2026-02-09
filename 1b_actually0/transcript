@@ -1,0 +1,139 @@
+# Compile of fifo.sv was successful.
+# Compile of m2.sv failed with 5 errors.
+# Compile of mac.sv was successful.
+# Compile of mat_vec_mult.sv was successful.
+# Compile of mat_vec_mult_tb.sv was successful.
+# Compile of memory.v was successful.
+# Compile of minilab1b.sv was successful.
+# Compile of minilab1b_tb.sv was successful.
+# Compile of rom.v was successful.
+# 9 compiles, 1 failed with 5 errors.
+# Compile of fifo.sv was successful.
+# Compile of m2.sv failed with 1 errors.
+# Compile of mac.sv was successful.
+# Compile of mat_vec_mult.sv was successful.
+# Compile of mat_vec_mult_tb.sv was successful.
+# Compile of memory.v was successful.
+# Compile of minilab1b.sv was successful.
+# Compile of minilab1b_tb.sv was successful.
+# Compile of rom.v was successful.
+# 9 compiles, 1 failed with 1 error.
+# Compile of fifo.sv was successful.
+# Compile of m2.sv failed with 2 errors.
+# Compile of mac.sv was successful.
+# Compile of mat_vec_mult.sv was successful.
+# Compile of mat_vec_mult_tb.sv was successful.
+# Compile of memory.v was successful.
+# Compile of minilab1b.sv was successful.
+# Compile of minilab1b_tb.sv was successful.
+# Compile of rom.v was successful.
+# 9 compiles, 1 failed with 2 errors.
+# Compile of m2.sv failed with 4 errors.
+# Load canceled
+# Load canceled
+vlog -work C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/work -refresh -force_refresh
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:11:58 on Feb 09,2026
+# vlog -reportprogress 300 -work C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/work -refresh -force_refresh 
+# -- Refreshing module FIFO
+# -- Refreshing module MAC
+# -- Refreshing module mat_vec_mult
+# -- Refreshing module mat_vec_mult_tb
+# -- Refreshing module mem_wrapper
+# -- Refreshing module minilab1b
+# -- Refreshing module rom
+# End time: 11:11:58 on Feb 09,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/work -refresh -force_refresh
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:11:58 on Feb 09,2026
+# vcom -reportprogress 300 -work C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/work -refresh -force_refresh 
+# -- Skipping module FIFO
+# -- Skipping module MAC
+# -- Skipping module mat_vec_mult
+# -- Skipping module mat_vec_mult_tb
+# -- Skipping module mem_wrapper
+# -- Skipping module minilab1b
+# -- Skipping module rom
+# End time: 11:11:58 on Feb 09,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.minilab1b
+# vsim work.minilab1b 
+# Start time: 11:12:04 on Feb 09,2026
+# Loading sv_std.std
+# Loading work.minilab1b
+# ** Warning: (vsim-3035) Instantiation depth of '/minilab1b/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT' is 51. This might indicate a recursive instantiation. Increasing limit to 75.
+# ** Error: (vsim-3036) Instantiation depth of '/minilab1b/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT' is 75. Assuming recursive instantiation.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT/iDUT File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/minilab1b_tb.sv
+# Error loading design
+# End time: 11:12:05 on Feb 09,2026, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 10
+# Load canceled
+# Compile of fifo.sv was successful.
+# Compile of m2.sv failed with 5 errors.
+# Compile of mac.sv was successful.
+# Compile of mat_vec_mult.sv was successful.
+# Compile of mat_vec_mult_tb.sv was successful.
+# Compile of memory.v was successful.
+# Compile of minilab1b.sv was successful.
+# Compile of minilab1b_tb.sv was successful.
+# Compile of rom.v was successful.
+# 9 compiles, 1 failed with 5 errors.
+vsim work.minilab1b_tb
+# vsim work.minilab1b_tb 
+# Start time: 11:13:11 on Feb 09,2026
+# Loading sv_std.std
+# Loading work.minilab1b_tb
+# Loading work.minilab1b
+# Loading work.mem_wrapper
+# Loading work.rom
+# ** Error (suppressible): (vsim-3009) [TSCALE] - Module 'minilab1b_tb' does not have a timeunit/timeprecision specification in effect, but other modules do.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v
+# ** Error: (vsim-3033) Instantiation of 'altsyncram' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 59
+#         Searched libraries:
+#             C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/work
+# Loading work.mat_vec_mult
+# Loading work.FIFO
+# Error loading design
+# End time: 11:13:12 on Feb 09,2026, Elapsed time: 0:00:01
+# Errors: 2, Warnings: 2
+vsim work.minilab1b_tb
+# vsim work.minilab1b_tb 
+# Start time: 11:14:33 on Feb 09,2026
+# Loading sv_std.std
+# Loading work.minilab1b_tb
+# Loading work.minilab1b
+# Loading work.mem_wrapper
+# Loading work.rom
+# ** Error (suppressible): (vsim-3009) [TSCALE] - Module 'minilab1b_tb' does not have a timeunit/timeprecision specification in effect, but other modules do.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v
+# ** Error: (vsim-3033) Instantiation of 'altsyncram' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 59
+#         Searched libraries:
+#             C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/work
+# Loading work.mat_vec_mult
+# Loading work.FIFO
+# Error loading design
+# End time: 11:14:33 on Feb 09,2026, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 1
+# Compile of m2.sv failed with 5 errors.
+# Compile of minilab1b_tb.sv was successful.
+# 2 compiles, 1 failed with 5 errors.
+vsim work.minilab1b_tb
+# vsim work.minilab1b_tb 
+# Start time: 11:14:55 on Feb 09,2026
+# Loading sv_std.std
+# Loading work.minilab1b_tb
+# Loading work.minilab1b
+# Loading work.mem_wrapper
+# Loading work.rom
+# ** Error: (vsim-3033) Instantiation of 'altsyncram' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 59
+#         Searched libraries:
+#             C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/work
+# Loading work.mat_vec_mult
+# Loading work.FIFO
+# Error loading design
+# End time: 11:14:55 on Feb 09,2026, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 2
